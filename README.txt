@@ -1,5 +1,18 @@
 GlkOte -- a Javascript display library for IF interfaces
 
+--
+
+This is a hack of Andrew Plotkin's GlkOte by Zed Lopez. 
+glkote.js has been refactored to remove the jQuery dependency 
+and the code is more EMCAScript 5-ish. 
+
+There are no *known* issues, but also almost no testing so
+bugs are expected.
+
+jquery has not yet been stripped from gi_blorb.js or dialog.js.
+
+--
+
 GlkOte Library: version 2.3.0.
 Designed by Andrew Plotkin <erkyrath@eblong.com>
 <http://eblong.com/zarf/glk/glkote.html>
